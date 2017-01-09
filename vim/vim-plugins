@@ -1,0 +1,13 @@
+git clone https://github.com/scrooloose/nerdtree.git ~/.vim/bundle/nerdtree
+git clone git://github.com/altercation/vim-colors-solarized.git ~/.vim/bundle/vim-colors-solarized
+git clone --depth=1 https://github.com/vim-syntastic/syntastic.git ~/.vim/bundle/syntastic
+git clone https://github.com/pycqa/flake8 ~/.vim/bundle/flake8
+
+# youcompleteme
+# create your python virtual env
+python3 -m venv myvirtualenv
+source ./python_env/bin/activate
+pip install jedi into virtual env
+git clone https://github.com/valloric/youcompleteme ~/.vim/bundle/youcompleteme
+
+
