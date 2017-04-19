@@ -10,6 +10,7 @@ Movement
 - n <N>             Repeat the last find command forward/backward.
 - “                 (That’s two back-ticks). Jump back to where you just were. This will jump back and forth between the same two locations if you keep pressing it.
 - ctrl+o ctrl+i     Move backward/forward through the jump history. Useful if you have followed a chain of method calls and need to get back to where you were.
+- tabe              Open file in a new tab
 - gt gT <n>gt       next tab, previous tab, numbered tab
 
 Editing
